@@ -4,47 +4,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kerala Tourism</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Kerala Tourism - Video Slideshow</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header class="header">
-        <div class="video-container">
-            <video autoplay muted loop>
-                <source src="https://cdn.pixabay.com/video/2018/01/06/13704-250154065_tiny.mp4" type="video/webm">
-                Your browser does not support the video tag.
-            </video>
+    <header>
+        <div id="videoCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <video autoplay muted loop>
+                        <source src="https://cdn.pixabay.com/video/2020/01/16/31301-385265740_tiny.mp4"
+                            type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="carousel-caption">
+                        <h1>Welcome to Kerala Tourism</h1>
+                        <p>Explore the beauty of Kerala</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <video autoplay muted loop>
+                        <source src="https://cdn.pixabay.com/video/2023/04/10/158229-816359520_tiny.mp4"
+                            type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="carousel-caption">
+                        <h1>Welcome to Kerala Tourism</h1>
+                        <p>Explore the beauty of Kerala</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <video autoplay muted loop>
+                        <source src="https://cdn.pixabay.com/video/2024/01/29/198488-907576442_large.mp4"
+                            type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="carousel-caption">
+                        <h1>Welcome to Kerala Tourism</h1>
+                        <p>Explore the beauty of Kerala</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <video autoplay muted loop>
+                        <source src="https://cdn.pixabay.com/video/2021/08/18/85526-589164621_large.mp4"
+                            type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="carousel-caption">
+                        <h1>Welcome to Kerala Tourism</h1>
+                        <p>Explore the beauty of Kerala</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div id="overlay">
-            <h1>Welcome to Kerala Tourism</h1>
-            <p>Explore the beauty of Kerala</p>
-        </div>
-        
+
+
         <header class="overlay-header">
             <div class="container-fluid d-flex align-items-center justify-content-between py-2">
                 <div class="logo">
-                    <img src="https://www.schemecolor.com/wp-content/uploads/Kerala-Tourism-Logo.png" alt="Kerala Logo" class="img-fluid">
+                    <img src="https://www.schemecolor.com/wp-content/uploads/Kerala-Tourism-Logo.png" alt="Kerala Logo"
+                        class="img-fluid">
                 </div>
 
                 <nav class="navbar navbar-expand-lg navbar-dark">
-                    <ul class="nav">
-                        <li class="nav-item"><a href="#Home" class="nav-link">Home</a></li>
-                        <li class="nav-item"><a href="#Destinations" class="nav-link">Destinations</a></li>
-                        <li class="nav-item"><a href="#About Kerala" class="nav-link">About Kerala</a></li>
-                        <li class="nav-item"><a href="#Districts-section" class="nav-link">Districts</a></li>
-                        <li class="nav-item"><a href="#Plan-Your-Trip" class="nav-link">Plan Your Trip</a></li>
-                        <li class="nav-item"><a href="#Contact-Us" class="nav-link">Contact Us</a></li>
-                    </ul>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="nav">
+                            <li class="nav-item"><a href="#Home" class="nav-link">Home</a></li>
+                            <li class="nav-item"><a href="#Destinations" class="nav-link">Destinations</a></li>
+                            <li class="nav-item"><a href="#About Kerala" class="nav-link">About Kerala</a></li>
+                            <li class="nav-item"><a href="#Districts-section" class="nav-link">Districts</a></li>
+                            <li class="nav-item"><a href="#Plan-Your-Trip" class="nav-link">Plan Your Trip</a></li>
+                            <li class="nav-item"><a href="#Contact-Us" class="nav-link">Contact Us</a></li>
+                        </ul>
+                    </div>
                 </nav>
             </div>
         </header>
     </header>
+
     <section>
         <div class="container-fluid">
-            <div class="m-5 text-center">
+            <div class="m-0 text-center">
                 <h3>COME AND ENJOY OUR CULTURE</h3>
             </div>
             <div class="container mt-5">
@@ -54,7 +101,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-4">
                                     <div class="image-container">
-                                        <img src="https://attractionlaw.org/wp-content/uploads/2023/10/How-Does-Manifestation-Work-Scientifically_-119880578-1024x585.jpg"
+                                        <img src="https://cdn.pixabay.com/photo/2021/03/27/10/43/yoga-6128116_640.jpg"
                                             alt="Yoga" class="d-block w-100">
                                         <div class="overlay">
                                             <h5>YOGA</h5>
@@ -64,7 +111,7 @@
                                 </div>
                                 <div class="col-4">
                                     <div class="image-container">
-                                        <img src="https://media.istockphoto.com/id/500779320/photo/theyyam-performance.jpg?s=612x612&w=0&k=20&c=ZgNtoU-tmPAgTkfSU4aWvhV7td3qobhZbvocLy9d5pc="
+                                        <img src="https://th.bing.com/th?id=OIP.H9au9Yj4Mtb6VgDMnoYGZgHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
                                             alt="Kannur" class="d-block w-100">
                                         <div class="overlay">
                                             <h5>KANNUR</h5>
@@ -81,7 +128,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-4">
                                     <div class="image-container">
-                                        <img src="https://th.bing.com/th/id/OIP.L2mfBcKdAouz7OU513igUwHaE8?w=284&h=190&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                                        <img src="https://cdn.pixabay.com/photo/2020/06/06/00/05/green-water-5264864_640.jpg"
                                             alt="Ecotourism" class="d-block w-100">
                                         <div class="overlay">
                                             <h5>ECOTOURISM</h5>
@@ -91,7 +138,7 @@
                                 </div>
                                 <div class="col-4">
                                     <div class="image-container">
-                                        <img src="https://www.keralatourism.org/images/kalari/static-banner/large/kalaripayattu-chuvadukal-11032020134050.jpg"
+                                        <img src="https://cdn.pixabay.com/photo/2016/09/02/14/25/kerala-1639325_960_720.jpg"
                                             alt="Kalari" class="d-block w-100">
                                         <div class="overlay">
                                             <h5>KALARI</h5>
@@ -106,7 +153,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-4">
                                     <div class="image-container">
-                                        <img src="https://th.bing.com/th/id/OIP.p5gfSVpUPxRy7Jt-NV6dnwAAAA?pid=ImgDet&w=184&h=182&c=7&dpr=1.3"
+                                        <img src="https://cdn.pixabay.com/photo/2024/05/10/10/21/woman-8752830_640.jpg"
                                             alt="Ayurveda Spa" class="d-block w-100">
                                         <div class="overlay">
                                             <h5>SPA</h5>
@@ -116,7 +163,7 @@
                                 </div>
                                 <div class="col-4">
                                     <div class="image-container">
-                                        <img src="https://1.bp.blogspot.com/-a6Tk22XFx3w/XY1ZXZlvsQI/AAAAAAAAXbE/6ORUojd3dZos4rd2AWaK98CtBoPiXTlrACLcBGAsYHQ/w800-h575/kappa%2Bmeen%2Bcurry%2B5.JPG"
+                                        <img src="https://cdn.pixabay.com/photo/2021/06/08/01/31/rice-6319366_640.jpg"
                                             alt="Food" class="d-block w-100">
                                         <div class="overlay">
                                             <h5>FOOD</h5>
@@ -128,11 +175,13 @@
                         </div>
                     </div>
 
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCulture" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCulture"
+                        data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCulture" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCulture"
+                        data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -142,334 +191,331 @@
         </div>
     </section>
 
-<section id="Destinations">
-    <div class="container-fluid">
-        <div class="m-5  text-center">
-            <h3>DESTINATIONS</h3>
-        </div>
-        <div class="container-fluid mt-5">
-            <div class="row g-4">
-                <div class="col-12 col-md-4 col-sm-6">
-                    <a href="destinations/munnar.html" class="card text-decoration-none">
-                        <div class="card">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmV_n9if9IT2KzwHmAw-RNV6iGNazXHYFcKw&s"
-                                class="card-img-top" alt="MUNNAR">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">MUNNAR</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="col-12 col-md-4 col-sm-6">
-                    <a href="destinations/wayanad.html" class="card text-decoration-none">
-                        <div class="card">
-                            <img src="https://th.bing.com/th?id=OIP.ZtqgelvHs2Wo4_5MUaYYpAHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
-                                class="card-img-top" alt="WAYANAD">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">WAYANAD</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="col-12 col-md-4 col-sm-6">
-                    <a href="destinations/alappuzha.html" class="card text-decoration-none">
-                        <div class="card">
-                            <img src="https://th.bing.com/th/id/OIP.xx_Oag1iek3Eehn8kmBX4QHaE8?w=240&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
-                                class="card-img-top" alt="ALAPPUZHA">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">ALAPPUZHA</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+    <section id="Destinations">
+        <div class="container-fluid">
+            <div class="m-5  text-center">
+                <h3>DESTINATIONS</h3>
             </div>
-
-            <div class="row g-4 mt-4">
-                <div class="col-12 col-md-4 col-sm-6">
-                    <a href="destinations/varkala.html" class="card text-decoration-none">
-                        <div class="card">
-                            <img src="https://s3.ap-south-1.amazonaws.com/zo-media/blog_photo/071_Varkala_10.jpg"
-                                class="card-img-top" alt="VARKALA">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">VARKALA</h5>
+            <div class="container-fluid mt-5">
+                <div class="row g-4">
+                    <div class="col-12 col-md-4 col-sm-6">
+                        <a href="destinations/munnar.html" class="card text-decoration-none">
+                            <div class="card">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmV_n9if9IT2KzwHmAw-RNV6iGNazXHYFcKw&s"
+                                    class="card-img-top" alt="MUNNAR">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">MUNNAR</h5>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-12 col-md-4 col-sm-6">
-                    <a href="destinations/thekkadi.html" class="card text-decoration-none">
-                        <div class="card">
-                            <img src="https://th.bing.com/th/id/OIP.rD3HOO2_-sUVjIcTBLk9FwHaE6?w=245&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
-                                class="card-img-top" alt="THEKKADI">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">THEKKADI</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-12 col-md-4 col-sm-6">
-                    <a href="destinations/wagamon.html" class="card text-decoration-none">
-                        <div class="card">
-                            <img src="https://www.trawell.in/admin/images/upload/963467362Vagamon_Main.jpg"
-                                class="card-img-top" alt="WAGAMON">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">WAGAMON</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="text-center mt-5">
-            <a href="destinations/destination.html" class="btn btn-primary">Explore Our
-                Destinations</a>
-        </div>
-    </div>
-</section>
-
-<section id="About Kerala">
-<div class="container-fluid">
-    <div class="m-5 text-center">
-        <h3>ABOUT KERALA</h3>
-    </div>
-
-    <div class="container mt-5">
-        <div class="row g-4">
-            <div class="col-12 col-md-4 col-sm-6">
-                <a href="about kerala/forest.html" class="text-decoration-none">
-                    <div class="card">
-                        <img src="https://th.bing.com/th/id/OIP.z8njMRijmss1zMcEX6ykiAHaFP?w=277&h=196&c=7&r=0&o=5&dpr=1.3&pid=1.7"
-                            class="card-img-top" alt="A Journey through the Forest">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Walking Through Forest</h5>
-                        </div>
+                        </a>
                     </div>
-                </a>
+
+
+                    <div class="col-12 col-md-4 col-sm-6">
+                        <a href="destinations/wayanad.html" class="card text-decoration-none">
+                            <div class="card">
+                                <img src="https://th.bing.com/th?id=OIP.ZtqgelvHs2Wo4_5MUaYYpAHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+                                    class="card-img-top" alt="WAYANAD">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">WAYANAD</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+
+                    <div class="col-12 col-md-4 col-sm-6">
+                        <a href="destinations/alappuzha.html" class="card text-decoration-none">
+                            <div class="card">
+                                <img src="https://th.bing.com/th/id/OIP.xx_Oag1iek3Eehn8kmBX4QHaE8?w=240&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                                    class="card-img-top" alt="ALAPPUZHA">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">ALAPPUZHA</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row g-4 mt-4">
+                    <div class="col-12 col-md-4 col-sm-6">
+                        <a href="destinations/varkala.html" class="card text-decoration-none">
+                            <div class="card">
+                                <img src="https://s3.ap-south-1.amazonaws.com/zo-media/blog_photo/071_Varkala_10.jpg"
+                                    class="card-img-top" alt="VARKALA">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">VARKALA</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-md-4 col-sm-6">
+                        <a href="destinations/thekkadi.html" class="card text-decoration-none">
+                            <div class="card">
+                                <img src="https://th.bing.com/th/id/OIP.rD3HOO2_-sUVjIcTBLk9FwHaE6?w=245&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                                    class="card-img-top" alt="THEKKADI">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">THEKKADI</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-md-4 col-sm-6">
+                        <a href="destinations/wagamon.html" class="card text-decoration-none">
+                            <div class="card">
+                                <img src="https://www.trawell.in/admin/images/upload/963467362Vagamon_Main.jpg"
+                                    class="card-img-top" alt="WAGAMON">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">WAGAMON</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
 
-            <div class="col-12 col-md-4 col-sm-6">
-                <a href="about kerala/festival.html" class="text-decoration-none">
-                    <div class="card">
-                        <img src="https://th.bing.com/th/id/OIP.EfFpPjrW_uGzdTvFXGp8dAHaE1?w=298&h=195&c=7&r=0&o=5&dpr=1.3&pid=1.7"
-                            class="card-img-top" alt="Festival">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Festival</h5>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-12 col-md-4 col-sm-6">
-                <a href="about kerala/village.html" class="text-decoration-none">
-                    <div class="card">
-                        <img src="https://th.bing.com/th/id/OIP.CRv8mKkHw_0o5EBirIvXjgHaE7?w=267&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
-                            class="card-img-top" alt="Experience in Village Life">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Experience in Village Life</h5>
-                        </div>
-                    </div>
-                </a>
+            <div class="text-center mt-5">
+                <a href="destinations/destination.html" class="btn btn-primary">Explore Our
+                    Destinations</a>
             </div>
         </div>
+    </section>
 
-        <div class="row g-4">
-            <div class="col-12 col-md-4 col-sm-6">
-                <a href="about kerala/scuba_diving.html" class="text-decoration-none">
-                    <div class="card">
-                        <img src="https://www.keralatourism.org/images/homecontentimage/desktop/scuba-diving1.jpg"
-                            class="card-img-top" alt="Scuba Diving" class="img-fluid">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Scuba Diving</h5>
-                        </div>
-                    </div>
-                </a>
+    <section id="About Kerala">
+        <div class="container-fluid">
+            <div class="m-5 text-center">
+                <h3>ABOUT KERALA</h3>
             </div>
 
-            <div class="col-12 col-md-4 col-sm-6">
-                <a href="about kerala/food.html" class="text-decoration-none">
-                    <div class="card">
-                        <img src="https://th.bing.com/th/id/OIP.13eN0x_hUM5WaOtqABV_pgHaEe?w=298&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
-                            class="card-img-top" alt="Food">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Foods</h5>
-                        </div>
+            <div class="container mt-5">
+                <div class="row g-4">
+                    <div class="col-12 col-md-4 col-sm-6">
+                        <a href="about kerala/forest.html" class="text-decoration-none">
+                            <div class="card">
+                                <img src="https://th.bing.com/th/id/OIP.z8njMRijmss1zMcEX6ykiAHaFP?w=277&h=196&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                                    class="card-img-top" alt="A Journey through the Forest">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Walking Through Forest</h5>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                </a>
+
+                    <div class="col-12 col-md-4 col-sm-6">
+                        <a href="about kerala/festival.html" class="text-decoration-none">
+                            <div class="card">
+                                <img src="https://th.bing.com/th/id/OIP.EfFpPjrW_uGzdTvFXGp8dAHaE1?w=298&h=195&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                                    class="card-img-top" alt="Festival">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Festival</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-md-4 col-sm-6">
+                        <a href="about kerala/village.html" class="text-decoration-none">
+                            <div class="card">
+                                <img src="https://th.bing.com/th/id/OIP.CRv8mKkHw_0o5EBirIvXjgHaE7?w=267&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                                    class="card-img-top" alt="Experience in Village Life">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Experience in Village Life</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-12 col-md-4 col-sm-6">
+                        <a href="about kerala/scuba_diving.html" class="text-decoration-none">
+                            <div class="card">
+                                <img src="https://www.keralatourism.org/images/homecontentimage/desktop/scuba-diving1.jpg"
+                                    class="card-img-top" alt="Scuba Diving" class="img-fluid">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Scuba Diving</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-md-4 col-sm-6">
+                        <a href="about kerala/food.html" class="text-decoration-none">
+                            <div class="card">
+                                <img src="https://th.bing.com/th/id/OIP.13eN0x_hUM5WaOtqABV_pgHaEe?w=298&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                                    class="card-img-top" alt="Food">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Foods</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-md-4 col-sm-6">
+                        <a href="about kerala/ayurveda.html" class="text-decoration-none">
+                            <div class="card">
+                                <img src="https://th.bing.com/th/id/OIP.C6Unt49LiRe47SR2ib7r_gHaE7?w=296&h=197&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                                    class="card-img-top" alt="Ayurveda">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Ayurveda</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
 
-            <div class="col-12 col-md-4 col-sm-6">
-                <a href="about kerala/ayurveda.html" class="text-decoration-none">
-                    <div class="card">
-                        <img src="https://th.bing.com/th/id/OIP.C6Unt49LiRe47SR2ib7r_gHaE7?w=296&h=197&c=7&r=0&o=5&dpr=1.3&pid=1.7"
-                            class="card-img-top" alt="Ayurveda">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Ayurveda</h5>
-                        </div>
-                    </div>
-                </a>
+            <div class="text-center mt-5 mb-5">
+                <a href="about kerala/about_kerala.html" class="btn btn-primary">Find More About Kerala</a>
             </div>
         </div>
-    </div>
-
-    <div class="text-center mt-5 mb-5">
-        <a href="about kerala/about_kerala.html" class="btn btn-primary">Find More About Kerala</a>
-    </div>
-</div>
-</section>
+    </section>
 
 
 
 
-<section id="Districts-section" class="districts-section text-center">
-    <h3>Districts</h3>
-    <img src="https://s3.ap-south-1.amazonaws.com/zo-media/blog_photo/67361277_855826118106968_90276793647980163_n.jpg"
-        alt="Districts of Kerala" class="img-fluid rounded shadow-lg">
-</section>
+    <section id="Districts-section" class="districts-section text-center">
+        <h3>Districts</h3>
+        <img src="https://s3.ap-south-1.amazonaws.com/zo-media/blog_photo/67361277_855826118106968_90276793647980163_n.jpg"
+            alt="Districts of Kerala" class="img-fluid rounded shadow-lg">
+    </section>
 
-<section id="Plan-Your-Trip" class="plan-your-trip">
-    <h2>Plan Your Trip</h2>
-    <p>Follow these simple steps to plan your dream vacation!</p>
-    <div class="container">
-        <div class="row">
-            <div class="card-wrapper">
-                <div class="step">
-                    <img src="https://cdn-icons-png.flaticon.com/512/3074/3074094.png" alt="Choose Destination">
-                    <h5>Choose Destination</h5>
-                    <p>Select the most appealing destinations in Kerala.</p>
+    <section id="Plan-Your-Trip" class="plan-your-trip">
+        <h2>Plan Your Trip</h2>
+        <p>Follow these simple steps to plan your dream vacation!</p>
+        <div class="container">
+            <div class="row">
+                <div class="card-wrapper">
+                    <div class="step">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3074/3074094.png" alt="Choose Destination">
+                        <h5>Choose Destination</h5>
+                        <p>Select the most appealing destinations in Kerala.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card-wrapper">
-                <div class="step">
-                    <img src="https://cdn-icons-png.flaticon.com/512/4149/4149271.png" alt="Book Tickets">
-                    <h5>Book Tickets</h5>
-                    <p>Book your flight, train, or bus tickets easily.</p>
+                <div class="card-wrapper">
+                    <div class="step">
+                        <img src="https://cdn-icons-png.flaticon.com/512/4149/4149271.png" alt="Book Tickets">
+                        <h5>Book Tickets</h5>
+                        <p>Book your flight, train, or bus tickets easily.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card-wrapper">
-                <div class="step">
-                    <img src="https://cdn-icons-png.flaticon.com/512/3565/3565418.png" alt="Pack Your Bags">
-                    <h5>Pack Your Bags</h5>
-                    <p>Prepare for your vacation with the essentials.</p>
+                <div class="card-wrapper">
+                    <div class="step">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3565/3565418.png" alt="Pack Your Bags">
+                        <h5>Pack Your Bags</h5>
+                        <p>Prepare for your vacation with the essentials.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card-wrapper">
-                <div class="step">
-                    <img src="https://th.bing.com/th/id/OIP.fJVh9hryM7lQYA1RKn_P-QHaHa?w=209&h=209&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Enjoy Your Trip">
-                    <h5>Enjoy Your Trip</h5>
-                    <p>Relax and experience the beauty of Kerala.</p>
+                <div class="card-wrapper">
+                    <div class="step">
+                        <img src="https://th.bing.com/th/id/OIP.fJVh9hryM7lQYA1RKn_P-QHaHa?w=209&h=209&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                            alt="Enjoy Your Trip">
+                        <h5>Enjoy Your Trip</h5>
+                        <p>Relax and experience the beauty of Kerala.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
-<section id="Contact-Us" class="contact-us-section">
-    <div class="contact-container">
-        <h2>Contact Us</h2>
-        <p>We would love to help you plan your dream vacation in Kerala. Reach out to us with your
-            queries and feedback.</p>
-        <form id="contact-form" action="thanks.html" method="get">
-            <input type="text" name="NAME" required placeholder="Enter Your Name">
-            <input type="email" name="email" required placeholder="Enter Your Email">
-            <input type="tel" name="Phone_no" required pattern="[0-9]{10}" placeholder="Enter Your Phone No">
-            <select name="districts">
-                <option value="THIRUVANANTHAPURAM">Thiruvananthapuram</option>
-                <option value="KOLLAM">Kollam</option>
-                <option value="PATHANAMTHITTA">Pathanamthitta</option>
-                <option value="ALAPPUZHA">Alappuzha</option>
-                <option value="KOTTAYAM">Kottayam</option>
-                <option value="IDUKKI">Idukki</option>
-                <option value="ERNAKULAM">Ernakulam</option>
-                <option value="THRISSUR">Thrissur</option>
-                <option value="PALAKKAD">Palakkad</option>
-                <option value="MALAPPURAM">Malappuram</option>
-                <option value="KOZHIKODE">Kozhikode</option>
-                <option value="WAYANAD">Wayanad</option>
-                <option value="KANNUR">Kannur</option>
-                <option value="KASARGODE">Kasargode</option>
-            </select>
-            <textarea name="MESSAGE" rows="4" placeholder="Enter Your Message"></textarea>
-            <button type="submit">Book Now</button>
-        </form>
-    </div>
-</section>
+    <section id="Contact-Us" class="contact-us-section">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <p>We would love to help you plan your dream vacation in Kerala. Reach out to us with your
+                queries and feedback.</p>
+            <form id="contact-form" action="thanks.html" method="get">
+                <input type="text" name="NAME" required placeholder="Enter Your Name">
+                <input type="email" name="email" required placeholder="Enter Your Email">
+                <input type="tel" name="Phone_no" required pattern="[0-9]{10}" placeholder="Enter Your Phone No">
+                <select name="districts">
+                    <option value="THIRUVANANTHAPURAM">Thiruvananthapuram</option>
+                    <option value="KOLLAM">Kollam</option>
+                    <option value="PATHANAMTHITTA">Pathanamthitta</option>
+                    <option value="ALAPPUZHA">Alappuzha</option>
+                    <option value="KOTTAYAM">Kottayam</option>
+                    <option value="IDUKKI">Idukki</option>
+                    <option value="ERNAKULAM">Ernakulam</option>
+                    <option value="THRISSUR">Thrissur</option>
+                    <option value="PALAKKAD">Palakkad</option>
+                    <option value="MALAPPURAM">Malappuram</option>
+                    <option value="KOZHIKODE">Kozhikode</option>
+                    <option value="WAYANAD">Wayanad</option>
+                    <option value="KANNUR">Kannur</option>
+                    <option value="KASARGODE">Kasargode</option>
+                </select>
+                <textarea name="MESSAGE" rows="4" placeholder="Enter Your Message"></textarea>
+                <button type="submit">Book Now</button>
+            </form>
+        </div>
+    </section>
 
 
 
 
-<footer class="footer">
-    <div class="footer-section">
-        <h3>Follow Us</h3>
-        <div class="social-container">
-            <ul class="social">
-                <li>
-                    <a href="https://www.youtube.com/keralatourism" target="_blank">
-                        <img src="https://th.bing.com/th/id/OIP.OVUMFVp8elGfMYh-27fTLAHaFO?w=240&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
-                            alt="YouTube" />
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/keralatourismofficial" target="_blank">
-                        <img src="https://th.bing.com/th/id/OIP.c88pgaTF4RvgRKNOR5M0BAHaHa?w=210&h=210&c=7&r=0&o=5&dpr=1.3&pid=1.7"
-                            alt="Facebook" />
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/keralatourism/?hl=en" target="_blank">
-                        <img src="https://th.bing.com/th/id/OIP.xa0FgRBsvMi7bmVNCDYsCgHaHa?w=188&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7"
-                            alt="Instagram" />
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.keralatourism.org/video-gallery/whatsapp" target="_blank">
-                        <img src="https://th.bing.com/th/id/OIP.GbsrglNpiRVjIa8pKAcUzAHaHa?w=154&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
-                            alt="WhatsApp" />
-                    </a>
-                </li>
+    <footer class="footer">
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <div class="social-container">
+                <ul class="social">
+                    <li>
+                        <a href="https://www.youtube.com/keralatourism" target="_blank">
+                            <img src="https://th.bing.com/th/id/OIP.OVUMFVp8elGfMYh-27fTLAHaFO?w=240&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                                alt="YouTube" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/keralatourismofficial" target="_blank">
+                            <img src="https://th.bing.com/th/id/OIP.c88pgaTF4RvgRKNOR5M0BAHaHa?w=210&h=210&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                                alt="Facebook" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/keralatourism/?hl=en" target="_blank">
+                            <img src="https://th.bing.com/th/id/OIP.xa0FgRBsvMi7bmVNCDYsCgHaHa?w=188&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                                alt="Instagram" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.keralatourism.org/video-gallery/whatsapp" target="_blank">
+                            <img src="https://th.bing.com/th/id/OIP.GbsrglNpiRVjIa8pKAcUzAHaHa?w=154&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                                alt="WhatsApp" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-section">
+            <h4>Our Partners</h4>
+            <div class="partners">
+                <img src="https://www.keralatourism.org/images/sargaalaya-logo.png" alt="DTPC Logo">
+                <img src="https://www.keralatourism.org/images/dtpc.png" alt="KTDC Logo">
+                <img src="https://www.keralatourism.org/images/brdc-logo.png" alt="BRDC Logo">
+                <img src="https://www.keralatourism.org/images/food-craft-logo.png" alt="Kerala Info Logo">
+            </div>
+        </div>
+
+        <div class="footer-section">
+            <p>Department of Tourism, Government of Kerala, Park View, Thiruvananthapuram, Kerala, India
+                - 695 033</p>
+            <p>Phone: +91 471 2321132, Fax: +91 471 2322279, Email: <a href="mailto:info@keralatourism.org"
+                    class="email-link">info@keralatourism.org</a>
+            </p>
+            <p>&copy; 2024 Kerala Tourism. All Rights Reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#" class="footer-link">Privacy Policy</a></li>
+                <li><a href="#" class="footer-link">Terms of Service</a></li>
+                <li><a href="#" class="footer-link">Accessibility</a></li>
+                <li><a href="#" class="footer-link">Sitemap</a></li>
             </ul>
         </div>
-    </div>
-
-    <div class="footer-section">
-        <h4>Our Partners</h4>
-        <div class="partners">
-            <img src="https://www.keralatourism.org/images/sargaalaya-logo.png" alt="DTPC Logo">
-            <img src="https://www.keralatourism.org/images/dtpc.png" alt="KTDC Logo">
-            <img src="https://www.keralatourism.org/images/brdc-logo.png" alt="BRDC Logo">
-            <img src="https://www.keralatourism.org/images/food-craft-logo.png" alt="Kerala Info Logo">
-        </div>
-    </div>
-
-    <div class="footer-section">
-        <p>Department of Tourism, Government of Kerala, Park View, Thiruvananthapuram, Kerala, India
-            - 695 033</p>
-        <p>Phone: +91 471 2321132, Fax: +91 471 2322279, Email: <a href="mailto:info@keralatourism.org"
-                class="email-link">info@keralatourism.org</a>
-        </p>
-        <p>&copy; 2024 Kerala Tourism. All Rights Reserved.</p>
-        <ul class="footer-links">
-            <li><a href="#" class="footer-link">Privacy Policy</a></li>
-            <li><a href="#" class="footer-link">Terms of Service</a></li>
-            <li><a href="#" class="footer-link">Accessibility</a></li>
-            <li><a href="#" class="footer-link">Sitemap</a></li>
-        </ul>
-    </div>
-</footer>
-
-    
+    </footer>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
